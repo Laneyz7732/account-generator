@@ -11,7 +11,7 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-  if (msg.channel.id === 'ChannelID') {
+  if (message.channel.id === 'ChannelID') {
   if(message.author.bot) return;
   var command = message.content.toLowerCase().slice(prefix.length).split(' ')[0];
 
