@@ -1,4 +1,5 @@
 # Account Generator
+A simple bot that will help you giving accounts to your server's members.
 For any issue, join [this discord server](https://discord.gg/hQZyAmp)  
 
 # Packages
