@@ -1,7 +1,6 @@
 # Account Generator
 A simple bot that will help you giving accounts to your server's members.  
-For any issue, join [this discord server](https://discord.gg/hQZyAmp)  
-
+For any issue, contact me on discord: Mental#8106
 # Packages
 -discord.js  
 -async  
