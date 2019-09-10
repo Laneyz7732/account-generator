@@ -11,7 +11,7 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-  if (message.channel.id === "ChannelID") {
+  if (message.channel.id === "INSERT_CHANNEL_ID") { //This will make the bot work only in that channel
     if (message.author.bot) return;
     var command = message.content
       .toLowerCase()
@@ -62,7 +62,7 @@ bot.on("message", message => {
                   author: {
                     name: "Account Generator",
                     url: "https://discordapp.com",
-                    icon_url: client.displayAvatarURL
+                    icon_url: bot.displayAvatarURL
                   },
                   fields: []
                 };
@@ -108,7 +108,7 @@ bot.on("message", message => {
         author: {
           name: "Account Generator",
           url: "https://discordapp.com",
-          icon_url: client.displayAvatarURL
+          icon_url: bot.displayAvatarURL
         },
         fields: [
           {
