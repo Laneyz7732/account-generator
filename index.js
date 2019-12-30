@@ -142,4 +142,4 @@ bot.on("message", message => {
   }
 });
 
-bot.login("YOUR TOKEN");
+client.login(process.env.BOT_TOKEN);
